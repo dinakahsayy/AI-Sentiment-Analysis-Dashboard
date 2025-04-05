@@ -11,10 +11,10 @@ An interactive web application that performs sentiment analysis on text and CSV 
 ## Demo Screenshots
 
 ### Single Text Analysis
-![Text Analysis](downloads/textAnalysis.png)
+![Text Analysis](images/textAnalysis.png)
 
 ### CSV Batch Analysis
-![CSV Analysis](downloads/fileAnalysis.png)
+![CSV Analysis](images/fileAnalysis.png)
 
 ## Technologies Used
 - Python
