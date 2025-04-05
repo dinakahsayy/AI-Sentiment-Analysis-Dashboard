@@ -1,25 +1,29 @@
-# AI-Sentiment-Analysis-Dashboard
+# AI Sentiment Analysis Dashboard
 
-## Overview
-Real-time sentiment analysis dashboard for market research using Natural Language Processing and Machine Learning. This tool analyzes customer feedback and social media data to provide actionable business insights through interactive visualizations.
+An interactive web application that performs sentiment analysis on text and CSV data using Natural Language Processing.
 
 ## Features
-- Real-time sentiment analysis of text data
-- Interactive dashboard with dynamic visualizations
-- Support for multiple data source inputs (CSV, Excel, direct text)
-- Sentiment trend analysis and reporting
-- Easy-to-use web interface
+- Real-time sentiment analysis of text input
+- Batch analysis of CSV files
+- Interactive visualizations including gauge charts and pie charts
+- Sentiment scoring and classification
 
-## Technologies
-- Python 3.8+
+## Demo Screenshots
+
+### Single Text Analysis
+![Text Analysis](downloads/textAnalysis.png)
+
+### CSV Batch Analysis
+![CSV Analysis](downloads/fileAnalysis.png)
+
+## Technologies Used
+- Python
 - Streamlit
 - TextBlob
-- Pandas
 - Plotly
-- NLTK
+- Pandas
 
-## Installation
-```bash
-git clone https://github.com/dinakahsayy/AI-Sentiment-Analysis-Dashboard
-cd AI-Sentiment-Analysis-Dashboard
-pip install -r requirements.txt
+## How to Run
+1. Clone the repository
+2. Install requirements: `pip install streamlit textblob plotly pandas`
+3. Run the app: `streamlit run main.py`
